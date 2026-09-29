@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "ramya.naveen"
+  bucket = "parwathi.deepa"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
