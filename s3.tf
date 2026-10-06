@@ -23,12 +23,6 @@ status = "Enabled"
 }
 }
 
-terraform {
-backend "s3" {
-region = "us-east-1"
-bucket = "parwathi.deepa"
-key = "prod/terraform.tfstate"
-}
-}
+
 
 
