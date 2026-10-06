@@ -22,7 +22,13 @@ versioning_configuration {
 status = "Enabled"
 }
 }
-
+terraform {
+backend "s3" {
+region = "ap-southeast-2"
+bucket = "naveenaws1999new2"
+key = "prod/terraform.tfstate"
+}
+}
 
 
 
